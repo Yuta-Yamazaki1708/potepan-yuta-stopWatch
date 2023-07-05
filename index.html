@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StopWatch</title>
+    <meta charset="utf-8" name="viewport" content="width=device-wdth, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3fbc3008d3.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+   <h3>ストップウォッチ</h3>
+   <div class=container>
+     <div id="showTime">0:00:00.00</div>
+     <div class=buttons>
+       <button id="startButton" onclick=start()><i class="fa-solid fa-play"></i>スタート</button>
+       <button id="stopButton" onclick=stop() disabled><i class="fa-solid fa-pause"></i>ストップ</button>
+       <button id="resetButton" onclick=reset() disabled><i class="fa-solid fa-arrow-rotate-left"></i>リセット</button>
+     </div>
+   </div>
+   <script type="text/javascript" src="main.js" charset="utf-8"></script>
+  </body>
+</html>
